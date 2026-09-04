@@ -125,7 +125,7 @@ del redshift (z) para las galaxias y los cuásares seleccionados.
 
 
 <p align="center">
-<img src="https://github.com/davidprez83/sdss-galaxies-quasars/edit/main/resultado.png" alt="Evidencia de expansión del universo: Gráfico índice g-r vs. redshift" width="720">
+<img src="https://github.com/davidprez83/sdss-galaxies-quasars/blob/main/resultado.png" alt="Evidencia de expansión del universo: Gráfico índice g-r vs. redshift" width="720">
 </p>
 
 
