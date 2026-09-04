@@ -20,7 +20,7 @@ galaxy = consulta[consulta['clasificacion'] == 'GALAXY'].copy()
 qso['error_redshift'] = np.abs(qso['error_redshift'])
 qso['error_color'] = np.abs(qso['error_color'])
 galaxy['error_redshift'] = np.abs(galaxy['error_redshift'])
-galaxy['error_color'] = np.abs(galaxy['error_color']
+galaxy['error_color'] = np.abs(galaxy['error_color'])
 
 print("Realizando la gráfica de interes...  ")
 # Graficamos con barras de error
