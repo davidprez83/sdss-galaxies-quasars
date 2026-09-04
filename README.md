@@ -1,4 +1,4 @@
-\# Galaxias y Cuásares primordiales
+# Galaxias y Cuásares primordiales
 
 Análisis del índice de color (g-r) en función del redshift (z)
 
@@ -6,13 +6,13 @@ para galaxias y cuásares utilizando datos de SDSS DR18.
 
 
 
-\## Objetivo 
+## Objetivo 
 
 El objetivo de este proyecto es practicar como se hace una consulta de datos desde bash para la limpieza y el análisis de tablas de datos de interés, en este caso se quiere estudiar la relación entre el índice de color y el redshift reportados para galaxias y Cuasares y llegar a hacer el diagrama de índice de color - redshift que evidencia la expansión del universo.
 
 
 
-\## Datos
+## Datos
 
 
 
@@ -32,19 +32,19 @@ Las principales variables utilizadas son:
 
 
 
-\- `objID`: identificador del objeto.
+- `objID`: identificador del objeto.
 
-\- `class`: clasificación espectroscópica del objeto.
+- `class`: clasificación espectroscópica del objeto.
 
-\- `z`: redshift.
+- `z`: redshift.
 
-\- `zErr`: incertidumbre del redshift.
+- `zErr`: incertidumbre del redshift.
 
-\- `zWarning`: indicador de posibles problemas en la medición del redshift.
+- `zWarning`: indicador de posibles problemas en la medición del redshift.
 
-\- `modelMag\_g`: magnitud en la banda fotométrica g.
+- `modelMag_g`: magnitud en la banda fotométrica g.
 
-\- `modelMag\_r`: magnitud en la banda fotométrica r.
+- `modelMag_r`: magnitud en la banda fotométrica r.
 
 
 
@@ -52,11 +52,11 @@ A partir de las magnitudes se calcula el índice de color:
 
 
 
-$g-r = modelMag\_g - modelMag\_r$
+$g-r = modelMag_g - modelMag_r$
 
 
 
-\## Metodología
+## Metodología
 
 
 
@@ -72,13 +72,13 @@ El análisis está dividido en tres etapas principales:
 
 
 
-\### `creador\_query\_URL.sh`
+### `creador_query_URL.sh`
 
 Este script recibe un query en lenguaje SQL para la base de datos de skyserver con espacios, comillas y todos los símbolos especiales y lo convierte a un str listo para agregar a un endpoint.
 
 
 
-\### `constructor\_db.py`
+### `constructor_db.py`
 
 
 
@@ -90,7 +90,7 @@ de datos SQLite llamada `datos\_mision.db`.
 
 
 
-\### `analisis\_visual.py`
+### `analisis_visual.py`
 
 
 
@@ -102,7 +102,7 @@ y genera la gráfica final.}
 
 
 
-\### `pipeline.sh`
+### `pipeline.sh`
 
 
 
@@ -114,7 +114,7 @@ necesarios para construir la base de datos y generar el resultado final.
 
 
 
-\## 5. Resultados
+## 5. Resultados
 
 
 
@@ -131,30 +131,6 @@ del redshift (z) para las galaxias y los cuásares seleccionados.
 
 
 Se puede observar que hay un porcentaje de cuásares que tiene un redshift demasiado grande y un índice de color no muy grande, lo que sirve de evidencia para fortalecer la hipótesis de la expansión.
-
-
-
-
-
-README.md
-
-│
-
-├── 1. Descripción del proyecto
-
-├── 2. Problema científico
-
-├── 3. Datos utilizados
-
-├── 4. Metodología / Pipeline
-
-├── 5. Estructura del repositorio
-
-├── 6. Consulta SQL y filtros
-
-├── 7. Análisis y resultado
-
-├── 8. Interpretación física
 
 └── 9. Cómo ejecutar el proyecto
 
