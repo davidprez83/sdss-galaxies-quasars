@@ -124,7 +124,9 @@ del redshift (z) para las galaxias y los cuásares seleccionados.
 
 
 
-!\[Redshift vs Índice de Color](resultado.png)
+<p align="center">
+<img src="https://github.com/davidprez83/sdss-galaxies-quasars/edit/main/resultado.png" alt="Evidencia de expansión del universo: Gráfico índice g-r vs. redshift" width="720">
+</p>
 
 
 
@@ -132,5 +134,5 @@ del redshift (z) para las galaxias y los cuásares seleccionados.
 
 Se puede observar que hay un porcentaje de cuásares que tiene un redshift demasiado grande y un índice de color no muy grande, lo que sirve de evidencia para fortalecer la hipótesis de la expansión.
 
-└── 9. Cómo ejecutar el proyecto
+
 
